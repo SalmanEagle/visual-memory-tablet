@@ -3,7 +3,7 @@ VMT Notation is a shorthand method of referencing memories stored in one's brain
 
 Buddha posited the theorem of Suffering for his disciples. As for the tradition I follow, there is a saying in it that there is one organ in the body, that if it is ailing - the entire body suffers, and if it is strong the entire body is healed. This organ is the Heart; or as I understood now: the organ for "meta learning".
 
-In the quest for learning at warp speed, to solve Earth's intractable problems, I used a little known Mathematics principle to develop a shorthand method of referencing memories stored in the brain. The Visual Memory Tablet notation enhances speed of recall. I have developed a computer program to translate English words into this logical notation.
+In the quest for learning at warp speed, to solve Earth's intractable problems, I used a little known Mathematics principle to develop a shorthand method of referencing memories stored in the brain. The Visual Memory Tablet Notation enhances speed of recall. I have developed a computer program to translate English words into this logical notation.
 
 This Mathematics rule is as follows: if you add the digits of ANY number, no matter how large; they resolve to the digits 1 to 9.
 
@@ -13,8 +13,9 @@ The applications of this principle are countless. One meaning is that, for examp
 
 However, it took me 10 years since learning this Mathematics principle to develop the notation I am going to explain as follows:
 
-ALPHABET NUMERICAL EQUIVALENCE: Letters of the English alphabet can be represented by the numbers 1 to 26. 
-LOCALIZATION: Now, we can use a group of entities - such as the NATO Alphabet for example, to represent the digits 1 to 9: 
+1. ALPHABET NUMERICAL EQUIVALENCE: Letters of the English alphabet can be represented by the numbers 1 to 26. 
+
+2. LOCALIZATION: Now, we can use a group of entities - such as the NATO Alphabet for example, to represent the digits 1 to 9: 
 
 A. Alfa: 1
 B. Bravo: 2
@@ -26,10 +27,13 @@ G. Golf: 7
 H. Hotel: 8
 I. India: 9 
 
-RECURRENCE: Since digits/letters will be reused, we represent the recurrence by 1 OR 2. Or lets localize this too, to {UN} OR {UN}{UN} respectively. 
-NOTATION: Each word can be represented by its First Letter and Length. 
-VARIABLES: First letters that are non-alphanumeric are represented by "Pakistan" (PK). 
-RESOLUTION: Finally, we apply the mentioned Mathematics principle and instead of needing 26 Letters, we just need 9 Letters (represented by their Locale) repeatedly. 
+3. RECURRENCE: Since digits/letters will be reused, we represent the recurrence by 1 OR 2. Or lets localize this too, to {UN} OR {UN}{UN} respectively. 
+
+4. NOTATION: Each word can be represented by its First Letter and Length. 
+
+5. VARIABLES: First letters that are non-alphanumeric are represented by "Pakistan" (PK). 
+
+6. RESOLUTION: Finally, we apply the mentioned Mathematics principle and instead of needing 26 Letters, we just need 9 Letters (represented by their Locale) repeatedly. 
 
 A. Alfa: 1
 B. Bravo: 2

@@ -55,7 +55,7 @@ Next e
 
 Call borderRemoval
 
-cL = wb.Sheets("Localization").Range("D32")
+cL = wb.Sheets("Symbolization").Range("C32")
 'cL = getComponentLevel("Letters")
 wb.Sheets("Visual Memory Tablet").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
 
@@ -138,24 +138,24 @@ Function resetCols(wordN As Integer, colPos As Integer) As Integer 'use this fun
    resetCols = colPos
 End Function
 
-Public Function getComponentLevel() As Dictionary
-    Dim component As Dictionary
-    Set component = New Dictionary
-    
-    component.Add "Blank Surface", "[Nulla]TS  "
-    component.Add "Letters", "[1]TS  "
-    component.Add "Words", "[2]TS  "
-    component.Add "Sentences", "[3]TS  "
-    component.Add "Paragraphs", "[4]TS  "
-    component.Add "Pages", "[5]TS  "
-    component.Add "Sections", "[6]TS  "
-    component.Add "Chapters", "[7]TS  "
-    component.Add "Book", "[8]TS  "
-    component.Add "Libraries", "[9]TS  "
-    
-    Set getComponentLevel = component
-    
-End Function
+'Public Function getComponentLevel() As Dictionary
+'    Dim component As Dictionary
+'    Set component = New Dictionary
+'
+'    component.Add "Blank Surface", "[Nulla]TS  "
+'    component.Add "Letters", "[1]TS  "
+'    component.Add "Words", "[2]TS  "
+'    component.Add "Sentences", "[3]TS  "
+'    component.Add "Paragraphs", "[4]TS  "
+'    component.Add "Pages", "[5]TS  "
+'    component.Add "Sections", "[6]TS  "
+'    component.Add "Chapters", "[7]TS  "
+'    component.Add "Book", "[8]TS  "
+'    component.Add "Libraries", "[9]TS  "
+'
+'    Set getComponentLevel = component
+'
+'End Function
 
 Function convBaseLtr(letter As String) As String
 Dim zns As String
@@ -163,83 +163,83 @@ Dim wrkbk As Workbook
 Set wrkbk = ThisWorkbook
 
 If letter = "A" Then
-zns = wrkbk.Sheets("Localization").Range("D2").Value
+zns = wrkbk.Sheets("Symbolization").Range("C2").Value
 ElseIf letter = "B" Then
-zns = wrkbk.Sheets("Localization").Range("D3").Value
+zns = wrkbk.Sheets("Symbolization").Range("C3").Value
 ElseIf letter = "C" Then
-zns = wrkbk.Sheets("Localization").Range("D4").Value
+zns = wrkbk.Sheets("Symbolization").Range("C4").Value
 ElseIf letter = "D" Then
-zns = wrkbk.Sheets("Localization").Range("D5").Value
+zns = wrkbk.Sheets("Symbolization").Range("C5").Value
 ElseIf letter = "E" Then
-zns = wrkbk.Sheets("Localization").Range("D6").Value
+zns = wrkbk.Sheets("Symbolization").Range("C6").Value
 ElseIf letter = "F" Then
-zns = wrkbk.Sheets("Localization").Range("D7").Value
+zns = wrkbk.Sheets("Symbolization").Range("C7").Value
 ElseIf letter = "G" Then
-zns = wrkbk.Sheets("Localization").Range("D8").Value
+zns = wrkbk.Sheets("Symbolization").Range("C8").Value
 ElseIf letter = "H" Then
-zns = wrkbk.Sheets("Localization").Range("D9").Value
+zns = wrkbk.Sheets("Symbolization").Range("C9").Value
 ElseIf letter = "I" Then
-zns = wrkbk.Sheets("Localization").Range("D10").Value
+zns = wrkbk.Sheets("Symbolization").Range("C10").Value
 
 'Since we are using only 9 Numbers to represent 26 Letters of English, therefore we need to put a ceiling AFTER "I" so the user can comprehend which Letter we are referring to, as
 'the Zeta Numeral System repeats itself over the course of the 26 Lettrs.
 ElseIf letter = "J" Then
-zns = wrkbk.Sheets("Localization").Range("D12").Value
+zns = wrkbk.Sheets("Symbolization").Range("C12").Value
 ElseIf letter = "K" Then
-zns = wrkbk.Sheets("Localization").Range("D13").Value
+zns = wrkbk.Sheets("Symbolization").Range("C13").Value
 ElseIf letter = "L" Then
-zns = wrkbk.Sheets("Localization").Range("D14").Value
+zns = wrkbk.Sheets("Symbolization").Range("C14").Value
 ElseIf letter = "M" Then
-zns = wrkbk.Sheets("Localization").Range("D15").Value
+zns = wrkbk.Sheets("Symbolization").Range("C15").Value
 ElseIf letter = "N" Then
-zns = wrkbk.Sheets("Localization").Range("D16").Value
+zns = wrkbk.Sheets("Symbolization").Range("C16").Value
 ElseIf letter = "O" Then
-zns = wrkbk.Sheets("Localization").Range("D17").Value
+zns = wrkbk.Sheets("Symbolization").Range("C17").Value
 ElseIf letter = "P" Then
-zns = wrkbk.Sheets("Localization").Range("D18").Value
+zns = wrkbk.Sheets("Symbolization").Range("C18").Value
 ElseIf letter = "Q" Then
-zns = wrkbk.Sheets("Localization").Range("D19").Value
+zns = wrkbk.Sheets("Symbolization").Range("C19").Value
 ElseIf letter = "R" Then
-zns = wrkbk.Sheets("Localization").Range("D20").Value
+zns = wrkbk.Sheets("Symbolization").Range("C20").Value
 
 ElseIf letter = "S" Then
-zns = wrkbk.Sheets("Localization").Range("D22").Value
+zns = wrkbk.Sheets("Symbolization").Range("C22").Value
 ElseIf letter = "T" Then
-zns = wrkbk.Sheets("Localization").Range("D23").Value
+zns = wrkbk.Sheets("Symbolization").Range("C23").Value
 ElseIf letter = "U" Then
-zns = wrkbk.Sheets("Localization").Range("D24").Value
+zns = wrkbk.Sheets("Symbolization").Range("C24").Value
 ElseIf letter = "V" Then
-zns = wrkbk.Sheets("Localization").Range("D25").Value
+zns = wrkbk.Sheets("Symbolization").Range("C25").Value
 ElseIf letter = "W" Then
-zns = wrkbk.Sheets("Localization").Range("D26").Value
+zns = wrkbk.Sheets("Symbolization").Range("C26").Value
 ElseIf letter = "X" Then
-zns = wrkbk.Sheets("Localization").Range("D27").Value
+zns = wrkbk.Sheets("Symbolization").Range("C27").Value
 ElseIf letter = "Y" Then
-zns = wrkbk.Sheets("Localization").Range("D28").Value
+zns = wrkbk.Sheets("Symbolization").Range("C28").Value
 ElseIf letter = "Z" Then
-zns = wrkbk.Sheets("Localization").Range("D29").Value
+zns = wrkbk.Sheets("Symbolization").Range("C29").Value
 
 ElseIf letter = "1" Then
-zns = wrkbk.Sheets("Localization").Range("D2").Value
+zns = wrkbk.Sheets("Symbolization").Range("C2").Value
 ElseIf letter = "2" Then
-zns = wrkbk.Sheets("Localization").Range("D3").Value
+zns = wrkbk.Sheets("Symbolization").Range("C3").Value
 ElseIf letter = "3" Then
-zns = wrkbk.Sheets("Localization").Range("D4").Value
+zns = wrkbk.Sheets("Symbolization").Range("C4").Value
 ElseIf letter = "4" Then
-zns = wrkbk.Sheets("Localization").Range("D5").Value
+zns = wrkbk.Sheets("Symbolization").Range("C5").Value
 ElseIf letter = "5" Then
-zns = wrkbk.Sheets("Localization").Range("D6").Value
+zns = wrkbk.Sheets("Symbolization").Range("C6").Value
 ElseIf letter = "6" Then
-zns = wrkbk.Sheets("Localization").Range("D7").Value
+zns = wrkbk.Sheets("Symbolization").Range("C7").Value
 ElseIf letter = "7" Then
-zns = wrkbk.Sheets("Localization").Range("D8").Value
+zns = wrkbk.Sheets("Symbolization").Range("C8").Value
 ElseIf letter = "8" Then
-zns = wrkbk.Sheets("Localization").Range("D9").Value
+zns = wrkbk.Sheets("Symbolization").Range("C9").Value
 ElseIf letter = "9" Then
-zns = wrkbk.Sheets("Localization").Range("D10").Value
+zns = wrkbk.Sheets("Symbolization").Range("C10").Value
 
-Else
-zns = wrkbk.Sheets("Localization").Range("D31").Value
+Else                                                        'if first character is unknown
+zns = wrkbk.Sheets("Symbolization").Range("C31").Value
 
 End If
 

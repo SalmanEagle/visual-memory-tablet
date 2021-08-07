@@ -25,11 +25,10 @@ End With
 myEntry = largeEntry()
 
 
-'myEntry = InputBox("Enter string for rendition as VMT Notation", "Visual Memory Tablet")
-
 Dim arr() As String
-    arr = Split(myEntry)
-
+    If myEntry <> "" Then    'if the entered data is not empty
+            arr = Split(myEntry, "")
+  
 
 Let f = 1
 Let c = 1
@@ -46,7 +45,6 @@ For e = 0 To UBound(arr)
    
     With wb.Sheets("Visual Memory Tablet").Range(Cells(f, c), Cells(f, c))
          .BorderAround xlContinuous, xlThick
-         '.Offset(0, 0).Select
          .NumberFormat = "@"      'Text format
          .Value = arr(e) + ": " + convBaseLtr(baseLtrChnk) + strLengthdPLUS(arr(e), baseLtrChnk)
          .Columns.EntireColumn.AutoFit
@@ -55,38 +53,35 @@ Next e
 
 Call borderRemoval
 
-cL = wb.Sheets("Symbolization").Range("C32")
-'cL = getComponentLevel("Letters")
-wb.Sheets("Visual Memory Tablet").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
+'cL = wb.Sheets("Symbolization").Range("C32")
+'wb.Sheets("Visual Memory Tablet").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
 
+
+Else
+    MsgBox ("You forgot to enter anything")
+    
+End If
 
 End Sub
 
+
+
 Function largeEntry() As String
-'    MsgBox (data)
-    'TextBox.Caption = data
-'    UserForm1.Show
     largeEntry = UserForm1.TextBox1.Value
-    'largeEntry = TextBox.txtstuff.Text
 End Function
 
 
-
-Function strLengthdPLUS(entry As Variant, firstChar As String) As String
+Public Function strLengthdPLUS(entry As Variant, firstChar As String) As String
+Dim cleanEntry As Variant
 Dim chars As Long
 Dim strLengthd As String
 Dim alphaNumOnly As String
 Dim regx As New RegExp
 
-alphaNumOnly = replRegx(entry, "", "[^a-zA-Z\d]")    'regex for any character other than alphanumeric
-Debug.Print alphaNumOnly
+alphaNumOnly = replRegx(entry, " ", "[^a-zA-Z\d]")    'regex for any character other than alphanumeric
+
 
 chars = Len(alphaNumOnly)
-
-regx.Pattern = "[^a-zA-Z\d]"   'accounting for the special case where first character is non-alphanumeric
-If regx.Test(firstChar) Then
-chars = chars + 1 'as this function in the above, unfortunately, discounts ALL occurences of non-alphanumerics
-End If
 
 strLengthd = CStr(chars)
 
@@ -117,47 +112,22 @@ Next cell
 End Function
 
 Function nextLine(wordNum As Integer, rowPos As Integer) As Integer
-        Debug.Print "Word Count: " + CStr(wordNum)
         If (wordNum Mod 6 = 0) Then
            rowPos = Round(wordNum / 6, 0)
            rowPos = rowPos + 1
         End If
-    Debug.Print "Row Number: " + CStr(rowPos)
-    Debug.Print "-"
     nextLine = rowPos
     
 End Function
 
 Function resetCols(wordN As Integer, colPos As Integer) As Integer 'use this function to fix J1 blank space
-   Debug.Print "Word Count: " + CStr(wordN)
    If (wordN Mod 6 = 0) Then
     colPos = 1
    End If
-   Debug.Print "Column Number: " + CStr(colPos)
-   Debug.Print "*******"
    resetCols = colPos
 End Function
 
-'Public Function getComponentLevel() As Dictionary
-'    Dim component As Dictionary
-'    Set component = New Dictionary
-'
-'    component.Add "Blank Surface", "[Nulla]TS  "
-'    component.Add "Letters", "[1]TS  "
-'    component.Add "Words", "[2]TS  "
-'    component.Add "Sentences", "[3]TS  "
-'    component.Add "Paragraphs", "[4]TS  "
-'    component.Add "Pages", "[5]TS  "
-'    component.Add "Sections", "[6]TS  "
-'    component.Add "Chapters", "[7]TS  "
-'    component.Add "Book", "[8]TS  "
-'    component.Add "Libraries", "[9]TS  "
-'
-'    Set getComponentLevel = component
-'
-'End Function
-
-Function convBaseLtr(letter As String) As String
+Public Function convBaseLtr(letter As String) As String
 Dim zns As String
 Dim wrkbk As Workbook
 Set wrkbk = ThisWorkbook

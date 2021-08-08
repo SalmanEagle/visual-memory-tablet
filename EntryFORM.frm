@@ -16,7 +16,8 @@ Attribute VB_Exposed = False
 Public Sub CommandButton1_Click()
 Dim enteredData As String
 
-enteredData = Me.TextBox1.Value
+enteredData = rmvSeparator(Me.TextBox1.Value)
+
 Call vmtM
 
 End Sub

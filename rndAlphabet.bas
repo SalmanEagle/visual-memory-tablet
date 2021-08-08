@@ -88,7 +88,7 @@ rngX(b, 2).Value = converted2VMN
 rngX(b, 2).Font.Size = 13
 rngX(b, 2).Font.Bold = True
 Next b
-wb.Sheets("Solutions").Range("B2:B27").Columns.ColumnWidth = 37
+wb.Sheets("Solutions").Range("B2:B27").Columns.ColumnWidth = 35
 
 Dim bb As Integer
 Dim baseLtrChnk3 As String
@@ -101,7 +101,7 @@ rngY(bb, 2).Value = converted2VMN2
 rngY(bb, 2).Font.Size = 13
 rngY(bb, 2).Font.Bold = True
 Next bb
-wb.Sheets("Solutions").Range("D2:D27").Columns.ColumnWidth = 37
+wb.Sheets("Solutions").Range("D2:D27").Columns.ColumnWidth = 35
 wb.Sheets("Solutions").Range("A1:D1").Merge
 
 End Sub

@@ -20,6 +20,8 @@ PROCESS:
 
 4. VARIABLES: First letters that are non-alphanumeric are represented by Pipe (|).
 
-The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable Photographic Memory.
+The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable Photographic (Visual) Memory. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Lengths (Pantheons).
 
-In database indexing, it is known that if you divide a random set of cards into suits; then looking for a particular card becomes quite a few times faster (the number of flips needed becomes lesser). In our VM Notation, we have taken 26 disparate elements and created 9 groups, hence increasing the speed with which memories stored in the brain can be indexed.
+In database indexing, it is known that if you divide a random set of cards into suits; then looking for a particular card becomes quite a few times faster (the number of flips needed becomes less). In our VM Notation, we have taken 26 disparate elements and divided them into 9 pre-existent groups, hence increasing the speed with which memories stored in the brain can be indexed.
+
+The Separator, /, further enables endless grouping. Forming distinct groups is the job of the Brain.

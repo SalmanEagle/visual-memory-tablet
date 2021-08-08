@@ -26,7 +26,6 @@ myEntry = largeEntry()
 
 
 Dim arr() As String
-    If myEntry <> "" Then    'if the entered data is not empty
             arr = Split(myEntry, "/")
   
 
@@ -42,7 +41,7 @@ For e = 0 To UBound(arr)
     Else
     baseLtrChnk = UCase(Left(arr(e), 1))
     End If
-    
+
     f = nextLine(e + 1, f)
     c = resetCols(e + 1, c)
     
@@ -59,12 +58,6 @@ Call borderRemoval
 
 'cL = wb.Sheets("Symbolization").Range("C32")
 'wb.Sheets("Visual Memory Tablet").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
-
-
-Else
-    MsgBox ("You forgot to enter anything")
-    
-End If
 
 End Sub
 

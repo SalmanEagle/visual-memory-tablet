@@ -27,7 +27,7 @@ myEntry = largeEntry()
 
 Dim arr() As String
     If myEntry <> "" Then    'if the entered data is not empty
-            arr = Split(myEntry, "")
+            arr = Split(myEntry, "/")
   
 
 Let f = 1
@@ -37,7 +37,11 @@ Let e = 0
 
 For e = 0 To UBound(arr)
     c = c + 1
+    If UCase(Left(arr(e), 1)) = "/" Then     'so as to not count / when this is used as separator
+    baseLtrChnk = UCase(Left(arr(e), 2))
+    Else
     baseLtrChnk = UCase(Left(arr(e), 1))
+    End If
     
     f = nextLine(e + 1, f)
     c = resetCols(e + 1, c)
@@ -67,7 +71,7 @@ End Sub
 
 
 Function largeEntry() As String
-    largeEntry = UserForm1.TextBox1.Value
+    largeEntry = EntryFORM.TextBox1.Value
 End Function
 
 

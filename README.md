@@ -1,10 +1,10 @@
 # visual-memory-tablet
 
-Visual Memory Notation (VMN) is a shorthand method of referencing memories stored in one's brain.
+Visual Memory NOTATION (VMN) is a shorthand method of referencing memories stored in one's brain.
 
 Buddha posited the theorem of Suffering for his disciples. As for the tradition I follow, there is a saying in it that there is one organ in the body, that if it is ailing - the entire body suffers, and if it is strong the entire body is healed. This organ is the Heart; or as I understood now: the organ for "meta learning".
 
-To enable learning at warp speed and solve Earth's intractable problems, I used a little known Mathematics principle to develop a shorthand method of referencing memories stored in the brain. The VM Notation enhances speed of recall. I have developed an Excel macro to translate English words into this logical notation.
+To enable learning at warp speed and solve Earth's intractable problems, I used a little known Mathematics principle to develop a shorthand method of referencing memories stored in the brain. The VM NOTATION enhances speed of recall. I have developed an Excel macro to translate English words into this logical notation.
 
 This Mathematics rule is as follows: if you add the digits of ANY number, no matter how large; they resolve to the digits 1 to 9.
 
@@ -22,6 +22,6 @@ PROCESS:
 
 The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable Photographic (Visual) Memory. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Lengths (Pantheons).
 
-In database indexing, it is known that if you divide a random set of cards into suits; then looking for a particular card becomes quite a few times faster (the number of flips needed becomes less). In our VM Notation, we have taken 26 disparate elements and divided them into 9 pre-existent groups, hence increasing the speed with which memories stored in the brain can be indexed.
+In database indexing, it is known that if you divide a random set of cards into suits; then looking for a particular card becomes quite a few times faster (the number of flips needed becomes less). In our VM NOTATION, we have taken 26 disparate elements and divided them into 9 pre-existent groups, hence increasing the speed with which memories stored in the brain can be indexed.
 
 The Separator, /, further enables endless grouping. Forming distinct groups is the job of the Brain.

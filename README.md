@@ -1,5 +1,8 @@
 # visual-memory-tablet
 
+![Visual Calculator](2021-08-10-02-47-25.png)
+EXAMPLE: In VM NOTATION: the word "skin" would be "{2}A +4". In this notation, the first letter ("s") is a second Recurrence of A, so represented as "{2}A"; and since the string has 4 lettrs, we put +4.
+
 Visual Memory NOTATION (VMN) is a shorthand method of referencing memories stored in one's brain.
 
 Buddha posited the theorem of Suffering for his disciples. As for the tradition I follow, there is a saying in it that there is one organ in the body, that if it is ailing - the entire body suffers, and if it is strong the entire body is healed. This organ is the Heart; or as I understood now: the organ for "meta learning".

@@ -26,7 +26,7 @@ For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 = 1 
 
 3. NOTATION: Each word can be represented by its First Letter and Length. The word "nice" is: "{1}E +4".
 
-4. VARIABLES: First letters that are non-alphanumeric are represented by Pipe (|).</i>
+4. VARIABLES: First letters that are non-alphanumeric are represented by Pipe ( | ).</i>
 
 The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable <b>Photographic (Visual) Memory</b>. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Lengths (Pantheons).
 

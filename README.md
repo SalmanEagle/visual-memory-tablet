@@ -3,7 +3,7 @@
 <img align="left" width="305" height="611" src="https://github.com/SalmanEagle/visual-memory-tablet/blob/main/2021-08-10-02-47-25.png">
 
 <i><h2>EXAMPLE:</h2></i>
-In VM NOTATION, the word "Skin" would be "{2}A +4". In this word, the first letter ("S") is mathematically just a second Recurrence of A, so represented as "{2}A"; and since the string has 4 lettrs, we put +4.
+In VM NOTATION, the word "Skin" would be "{2}A +4". The first letter ("S") is mathematically just a second Recurrence of A, so represented as "{2}A"; and since the string has 4 lettrs, we put +4.
 
 <i><h2>INTRODUCTION:</h2></i>
 Visual Memory NOTATION (VMN) is a shorthand method of referencing memories stored in the brain. It can increase speed of recall.

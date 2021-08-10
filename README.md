@@ -1,6 +1,6 @@
 # visual-memory-tablet
 
-![Visual Calculator](2021-08-10-02-47-25.png){:style="float: left;margin-right: 7px;margin-top: 7px;"}
+![Visual Calculator](2021-08-10-02-47-25.png){:style="float: right;margin-right: 7px;margin-top: 7px;"}
 
 EXAMPLE: In VM NOTATION: the word "skin" would be "{2}A +4". In this notation, the first letter ("s") is a second Recurrence of A, so represented as "{2}A"; and since the string has 4 lettrs, we put +4.
 

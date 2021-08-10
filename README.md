@@ -14,7 +14,7 @@ To enable learning at warp speed and solve Earth's intractable problems, I used 
 
 <b>This Mathematics rule is as follows: if you add the digits of ANY number, no matter how large; they resolve to the digits 1 to 9.
 
-For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 = 1 + 6 = 7.</b>
+For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 => 1 + 6 = 7.</b>
 
 <i><h2>PROCESS:</h2></i>
 

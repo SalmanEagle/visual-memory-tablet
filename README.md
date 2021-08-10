@@ -20,11 +20,8 @@ For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 = 1 
 
 <i>
 1. ALPHABET NUMERICAL EQUIVALENCE: Letters of the English alphabet can be represented by the numbers 1 to 26.
-
 2. RECURRENCE: Now, instead of needing 26 Letters - we just need 9 Letters. We represent recurrences by 1 OR 2. For example, J is letter 10 ~ which resolves to 1. Therefore, J is a Recurrence of A and can simply be represented as {1}A. A, itself, would be {0}A.
-
 3. NOTATION: Each word can be represented by its First Letter and Length. The word "joint" is: "{1}A +5".
-
 4. VARIABLES: First letters that are non-alphanumeric are represented by Pipe (|).</i>
 
 The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable <b>Photographic (Visual) Memory</b>. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Lengths (Pantheons).

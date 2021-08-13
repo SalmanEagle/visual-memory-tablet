@@ -12,11 +12,11 @@ Dim cL As String
 Dim wb As Workbook
 Set wb = ThisWorkbook
 Dim ws As Worksheet
-Set ws = ThisWorkbook.Worksheets("Visual Memory Tablet")
+Set ws = ThisWorkbook.Worksheets("Interpreter")
 Dim arrRev() As String
 Dim inpt As String
 
-With wb.Sheets("Visual Memory Tablet").Cells
+With wb.Sheets("Interpreter").Cells
     .ClearFormats
     .Clear
 End With
@@ -46,7 +46,7 @@ For e = 0 To UBound(arr)
     c = resetCols(e + 1, c)
     
    
-    With wb.Sheets("Visual Memory Tablet").Range(Cells(f, c), Cells(f, c))
+    With wb.Sheets("Interpreter").Range(Cells(f, c), Cells(f, c))
          .BorderAround xlContinuous, xlThick
          .NumberFormat = "@"      'Text format
          .Value = arr(e) + ": " + convBaseLtr(baseLtrChnk) + strLengthdPLUS(arr(e), baseLtrChnk)
@@ -57,7 +57,7 @@ Next e
 Call borderRemoval
 
 'cL = wb.Sheets("Symbolization").Range("C32")
-'wb.Sheets("Visual Memory Tablet").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
+'wb.Sheets("Interpreter").Range(Cells(f + 2, 1), Cells(f + 2, 1)).Value = cL
 
 End Sub
 
@@ -99,7 +99,7 @@ End Function
 Function borderRemoval()
 Dim cell As Range
 Dim rngB As Range
-Set rngB = ThisWorkbook.Sheets("Visual Memory Tablet").UsedRange
+Set rngB = ThisWorkbook.Sheets("Interpreter").UsedRange
 For Each cell In rngB
     If Not IsEmpty(cell) Then
         cell.Borders(xlEdgeRight).LineStyle = xlNone

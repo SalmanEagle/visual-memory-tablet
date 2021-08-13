@@ -1,6 +1,6 @@
 # visual-memory-tablet
 
-<img align="left" width="305" height="611" src="https://github.com/SalmanEagle/visual-memory-tablet/blob/main/2021-08-10-02-47-25.png" alt="Visual Memory Tablet">
+<img align="left" width="305" height="611" src="https://github.com/SalmanEagle/visual-memory-tablet/blob/main/Visual%20Memory%20Tablet.jpg" alt="Visual Memory Tablet">
 
 <i><h2>EXAMPLE:</h2></i>
 In VM NOTATION, the word "Skin" would be "{2}A +4". The first letter ("S") is mathematically just a second Recurrence of A, so represented as "{2}A"; and since the string has 4 letters, we put +4.

@@ -31,7 +31,7 @@ For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 ⇒ 
 
 5. VARIABLES: First letters that are non-alphanumeric are represented by Pipe ( | ).</i>
 
-The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable <b>Photographic (Visual) Memory</b>. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Lengths (Pantheons).
+The advantage of this system is that you are always using, basically, just 9 Symbols to represent any Word. Further, at a more advanced level you could represent a whole sentence in the same way OR a whole chapter or book or even physical buildings. This can potentially enable <b>Photographic (Visual) Memory</b>. The probable method of achieving this is to apply the Separator (/), and grouping strings based on their Length (Pantheon or Level).
 
 <b>In database indexing, it is known that if you divide a random set of cards into suits; then looking for a particular card becomes quite a few times faster (the number of flips needed becomes less).</b> In our VM NOTATION, we have taken 26 disparate elements and divided them into 9 pre-existent groups, hence increasing the speed with which memories stored in the brain can be indexed.
 

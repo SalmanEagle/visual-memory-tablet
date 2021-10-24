@@ -2,9 +2,6 @@
 
 <img align="left" width="305" height="611" src="https://github.com/SalmanEagle/visual-memory-tablet/blob/main/Visual%20Memory%20Tablet.jpg" alt="Visual Memory Tablet">
 
-<i><h2>EXAMPLE:</h2></i>
-In VM NOTATION, the word "Skin" would be "{2,1}A +4". The first letter ("S") is mathematically just a second Recurrence of A, so represented as "{2,1}A" - where 1 represents the Sequence of the letter "A" in the alphabet; and since the string has 4 letters, we put +4.
-
 <i><h2>INTRODUCTION:</h2></i>
 Visual Memory NOTATION (VMN) is a shorthand method of referencing memories stored in the brain. It can increase speed of recall.
 
@@ -15,6 +12,9 @@ To enable learning at warp speed and solve Earth's intractable problems, I used 
 <b>This Mathematics rule is as follows: if you add the digits of ANY number, no matter how large; they resolve to the digits 1 to 9.
 
 For example: the number 583. If you add the digits: 5 + 8 + 3 = 13 + 3 = 16 ⇒ 1 + 6 = 7.</b>
+
+<i><h2>EXAMPLE:</h2></i>
+In VM NOTATION, the word "Skin" would be "{2,1}A +4". The first letter ("S") is mathematically just a second Recurrence of A, so represented as "{2,1}A" - where 1 represents the Sequence of the letter "A" in the alphabet; and since the string has 4 letters, we put +4.
 
 <i><h2>PROCESS:</h2></i>
 
